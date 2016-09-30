@@ -8,8 +8,9 @@
 " rel="stylesheet">
 <link rel="stylesheet" href="src/github-markdown.css">
 <style>
-.container {max-width:800px;}
-.head{
+body{background-color: #F2F2F2;}
+.container {max-width:750px;}
+#bloghead{
     text-align: center;
     border-bottom: 1px solid #eee;
     padding:30px;
@@ -17,35 +18,63 @@
     background-image:linear-gradient(120deg, #155799, #159957);
     color:#ffffff;
 }
-.head a{color:#ffffff;}
-.head h1{font-size:48px;}
-.head p{font-size:24px;}
-#articleList h2 a{
-    font-size:0.8em;
+#bloghead a {color:#ffffff;}
+#bloghead h1 {font-size:48px;}
+#bloghead p {font-size:24px;}
+
+.comment,
+#article article,
+#article .page-header,
+#articleList .page-header {
+    background-color:#FFF;
+    padding:40px;
+    border:1px solid #eee;
+    margin:30px 0;
 }
-#articleList p.status{
+
+.comment .page-header {
+    margin:0;
+}
+
+.comment .page-header h3,
+#article .page-header h1,
+#articleList .page-header h2 {
+    margin: 0px;
+}
+#articleList .page-header h2 a{
+    color:#000;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.image,
+#articleList .page-header p.excerpt{
     font-size:1.2em;
-    padding:16px 0 0 20px;
+    margin:0px;
+    margin-top:20px;
 }
 </style>
 </head>
 <body>
-<div class="head">
+<div id="bloghead">
     <div class="container">
         <h1><a href="index.html">PM老张</a></h1>
-        <p>by pmzhang</p>
         <p>Product Management and PHP Development</p>
     </div>
 </div>
 <div class="container" style="padding-top:30px;padding-bottom:30px;">
-<div class="article">
+<div id="article">
     <div class="page-header">
         <h1>Mark2blog，将markdown文档生成博客的php程序 <small></small></h1>
-                    <p style="padding-top:24px;">posted 2016-09-25</p>
+                    <p class="status">posted 2016-09-25</p>
             </div>
 
     <article class="markdown-body">
         <p>mark2blog是用于将markdown文档生成博客的php程序。目前支持简单的模板，分页索引等功能。</p>
+<h2>github</h2>
+<ul>
+<li><a href="http://github.com/citywill/mark2blog">http://github.com/citywill/mark2blog</a></li>
+</ul>
 <h2>依赖</h2>
 <ul>
 <li><a href="https://github.com/erusev/parsedown">https://github.com/erusev/parsedown</a></li>
@@ -59,7 +88,7 @@
 </ul>
 <h2>DEMO</h2>
 <ul>
-<li><a href="http://citywill.github.io">citywill.github.io</a></li>
+<li><a href="http://blog.pmzhang.com">blog.pmzhang.com</a></li>
 </ul>
 <h2>例子</h2>
 <pre><code class="language-php">&lt;?php
@@ -120,16 +149,21 @@ title: 用 Workflowy 高效记笔记
 </ul>    </article >
 </div>
 
-<nav style="margin-top:50px;">
+<nav>
   <ul class="pager">
     <li class="previous"><a href="2016-09-22_Learning-PHP-Agilely.html">&larr; Learning PHP Agilely</a></li>
   </ul>
 </nav>
 
+<div class="comment">
+    <div class="page-header">
+        <h3>评论</h3>
+    </div>
 <!-- 多说评论框 start -->
-<div class="ds-thread" style="margin-top:50px;" data-thread-key="2016-09-25_mark2blog-a-blog-system-with-markdown-in-php" data-title="Mark2blog，将markdown文档生成博客的php程序" data-url="http://blog.pmzhang.com/2016-09-25_mark2blog-a-blog-system-with-markdown-in-php.html"></div>
+    <div class="ds-thread" data-thread-key="2016-09-25_mark2blog-a-blog-system-with-markdown-in-php" data-title="Mark2blog，将markdown文档生成博客的php程序" data-url="http://blog.pmzhang.com/2016-09-25_mark2blog-a-blog-system-with-markdown-in-php.html"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+</div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"pmzhang"};
     (function() {

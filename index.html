@@ -8,8 +8,9 @@
 " rel="stylesheet">
 <link rel="stylesheet" href="src/github-markdown.css">
 <style>
-.container {max-width:800px;}
-.head{
+body{background-color: #F2F2F2;}
+.container {max-width:750px;}
+#bloghead{
     text-align: center;
     border-bottom: 1px solid #eee;
     padding:30px;
@@ -17,83 +18,149 @@
     background-image:linear-gradient(120deg, #155799, #159957);
     color:#ffffff;
 }
-.head a{color:#ffffff;}
-.head h1{font-size:48px;}
-.head p{font-size:24px;}
-#articleList h2 a{
-    font-size:0.8em;
+#bloghead a {color:#ffffff;}
+#bloghead h1 {font-size:48px;}
+#bloghead p {font-size:24px;}
+
+.comment,
+#article article,
+#article .page-header,
+#articleList .page-header {
+    background-color:#FFF;
+    padding:40px;
+    border:1px solid #eee;
+    margin:30px 0;
 }
-#articleList p.status{
+
+.comment .page-header {
+    margin:0;
+}
+
+.comment .page-header h3,
+#article .page-header h1,
+#articleList .page-header h2 {
+    margin: 0px;
+}
+#articleList .page-header h2 a{
+    color:#000;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.image,
+#articleList .page-header p.excerpt{
     font-size:1.2em;
-    padding:16px 0 0 20px;
+    margin:0px;
+    margin-top:20px;
 }
 </style>
 </head>
 <body>
-<div class="head">
+<div id="bloghead">
     <div class="container">
         <h1><a href="index.html">PM老张</a></h1>
-        <p>by pmzhang</p>
         <p>Product Management and PHP Development</p>
     </div>
 </div>
-<div class="container" style="padding-top:30px;padding-bottom:30px;">    <div id="articleList">
-                <div class="page-header">
-                            <p class="pull-right status">posted 2016-09-25</p>
-                        <h2>
-                <a href="2016-09-25_mark2blog-a-blog-system-with-markdown-in-php.html">
-                    Mark2blog，将markdown文档生成博客的php程序                    <small></small>
-                </a>
-            </h2>
-        </div>
-                <div class="page-header">
-                            <p class="pull-right status">posted 2016-09-22</p>
-                        <h2>
-                <a href="2016-09-22_Learning-PHP-Agilely.html">
-                    Learning PHP Agilely                    <small></small>
-                </a>
-            </h2>
-        </div>
-                <div class="page-header">
-                            <p class="pull-right status">posted 2016-09-10</p>
-                        <h2>
-                <a href="2016-09-10_foreign-product-manager-website.html">
-                    推荐四个国外产品经理常看的网站                    <small></small>
-                </a>
-            </h2>
-        </div>
-                <div class="page-header">
-                            <p class="pull-right status">posted 2016-07-27</p>
-                        <h2>
-                <a href="2016-07-27_what-kind-of-prd-can-make-rd-satisfied.html">
-                    什么样的需求文档能让程序员满意？                    <small></small>
-                </a>
-            </h2>
-        </div>
-                <div class="page-header">
-                            <p class="pull-right status">posted 2015-12-30</p>
-                        <h2>
-                <a href="2015-12-30_2015-annuel-product-management-summary.html">
-                    2015年产品工作小结                    <small></small>
-                </a>
-            </h2>
-        </div>
-                <div class="page-header">
-                            <p class="pull-right status">posted 2015-08-31</p>
-                        <h2>
-                <a href="2015-08-31_note-agilely-with-workflowy.html">
-                    用 Workflowy 高效记笔记                    <small></small>
-                </a>
-            </h2>
-        </div>
-            </div>
-    <nav>
-        <ul class="pagination">
-                    <li class="active">
-                <a href="index.html">1</a>
-            </li>
-                </ul>
-    </nav>
+<div class="container" style="padding-top:30px;padding-bottom:30px;">
+<div id="articleList">
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2016-09-25_mark2blog-a-blog-system-with-markdown-in-php.html">
+                Mark2blog，将markdown文档生成博客的php程序            </a>
+        </h2>
+
+                    <p class="status">posted 2016-09-25</p>
+        
+                    <p class="excerpt">mark2blog是用于将markdown文档生成博客的php程序。目前支持简单的模板，分页索引等功能。本博客就是由mark2blog生成。欢迎使用或参与贡献。</p>
+        
+        
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2016-09-22_Learning-PHP-Agilely.html">
+                Learning PHP Agilely            </a>
+        </h2>
+
+                    <p class="status">posted 2016-09-22</p>
+        
+                    <p class="excerpt">近期给工程学院计算机专业的学生讲了一次讲座，主题是互联网创新和创业。其中重点介绍了应该如何学习编程语言，并以PHP为例做了点展开。本篇就是给学生们留的一个作业：创建自己的第一个php程序并在github上开源。</p>
+        
+        
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2016-09-10_foreign-product-manager-website.html">
+                推荐四个国外产品经理常看的网站            </a>
+        </h2>
+
+                    <p class="status">posted 2016-09-10</p>
+        
+        
+                    <p class="image"><img class="img-responsive" src="src/2016-09-25_foreign-product-manager-website_producthunt.png" alt="推荐四个国外产品经理常看的网站" /></p>
+        
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2016-07-27_what-kind-of-prd-can-make-rd-satisfied.html">
+                什么样的需求文档能让程序员满意？            </a>
+        </h2>
+
+                    <p class="status">posted 2016-07-27</p>
+        
+                    <p class="excerpt">知乎上有人问需求的细节写到什么程度才能不被程序员骂。其实这个问题并不成立。产品经理被程序员骂并不完全是因为需求的细节不到位导致的，还有更深层次的原因。</p>
+        
+                    <p class="image"><img class="img-responsive" src="src/2016-07-27_what-kind-of-prd-can-make-rd-satisfied_requirement-description-pyramid.png" alt="什么样的需求文档能让程序员满意？" /></p>
+        
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2015-12-30_2015-annuel-product-management-summary.html">
+                2015年产品工作小结            </a>
+        </h2>
+
+                    <p class="status">posted 2015-12-30</p>
+        
+                    <p class="excerpt">这一年，我连滚带爬的探索了三个新产品，并将其中一个推进到上线，一个进入到产品验证阶段，一个还在进行产品设计。做个简单的总结吧。</p>
+        
+        
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2015-08-31_note-agilely-with-workflowy.html">
+                用 Workflowy 高效记笔记            </a>
+        </h2>
+
+                    <p class="status">posted 2015-08-31</p>
+        
+                    <p class="excerpt">workflowy是14年才发现的工具。今年才开始重用。现在每天有大量时间用在workflowy上面。这不是一篇workflowy的教程，只是我做笔记和使用workflowy的一些感受。</p>
+        
+                    <p class="image"><img class="img-responsive" src="src/2015-08-31_note-agilely-with-workflowy_friends.jpg" alt="我们买票又不是为了看搞笑秀" /></p>
+        
+    </div>
+
+
+</div>
+
+
 
 </div>
 <div class="footer">

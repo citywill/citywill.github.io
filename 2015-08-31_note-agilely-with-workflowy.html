@@ -8,8 +8,9 @@
 " rel="stylesheet">
 <link rel="stylesheet" href="src/github-markdown.css">
 <style>
-.container {max-width:800px;}
-.head{
+body{background-color: #F2F2F2;}
+.container {max-width:750px;}
+#bloghead{
     text-align: center;
     border-bottom: 1px solid #eee;
     padding:30px;
@@ -17,36 +18,59 @@
     background-image:linear-gradient(120deg, #155799, #159957);
     color:#ffffff;
 }
-.head a{color:#ffffff;}
-.head h1{font-size:48px;}
-.head p{font-size:24px;}
-#articleList h2 a{
-    font-size:0.8em;
+#bloghead a {color:#ffffff;}
+#bloghead h1 {font-size:48px;}
+#bloghead p {font-size:24px;}
+
+.comment,
+#article article,
+#article .page-header,
+#articleList .page-header {
+    background-color:#FFF;
+    padding:40px;
+    border:1px solid #eee;
+    margin:30px 0;
 }
-#articleList p.status{
+
+.comment .page-header {
+    margin:0;
+}
+
+.comment .page-header h3,
+#article .page-header h1,
+#articleList .page-header h2 {
+    margin: 0px;
+}
+#articleList .page-header h2 a{
+    color:#000;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.image,
+#articleList .page-header p.excerpt{
     font-size:1.2em;
-    padding:16px 0 0 20px;
+    margin:0px;
+    margin-top:20px;
 }
 </style>
 </head>
 <body>
-<div class="head">
+<div id="bloghead">
     <div class="container">
         <h1><a href="index.html">PM老张</a></h1>
-        <p>by pmzhang</p>
         <p>Product Management and PHP Development</p>
     </div>
 </div>
 <div class="container" style="padding-top:30px;padding-bottom:30px;">
-<div class="article">
+<div id="article">
     <div class="page-header">
         <h1>用 Workflowy 高效记笔记 <small></small></h1>
-                    <p style="padding-top:24px;">posted 2015-08-31</p>
+                    <p class="status">posted 2015-08-31</p>
             </div>
 
     <article class="markdown-body">
-        <h1>用 Workflowy 高效记笔记</h1>
-<p>常在知乎看到有人这么推销笔记技巧：</p>
+        <p>常在知乎看到有人这么推销笔记技巧：</p>
 <p><img src="src/2015-08-31_note-agilely-with-workflowy_godness.jpg" alt="糟糕的笔记" /></p>
 <p>真凌乱了。你真的是在记笔记么？不断换笔换颜色画出各种可爱图形的小朋友们，你们是为了做笔记而做笔记的吧！你们做笔记的时候到底有多少精力是放在笔记所要记的事务本身上呢？</p>
 <p>作为工作了十多年的普通直男，我从来没有时间在笔记本上画画，没心情在工作日志上换笔的颜色，没动力在着急火燎的项（si）目（bi）会上涂鸦。我要是这么干就是跟自己过不去。</p>
@@ -68,16 +92,21 @@
 <p>各位可以用这个链接注册workflowy，包含了一个推荐码，可以多获得每月250条记录限额：<a href="https://workflowy.com/invite/2b62257c.lnx">WorkFlowy</a>。</p>    </article >
 </div>
 
-<nav style="margin-top:50px;">
+<nav>
   <ul class="pager">
     <li class="next"><a href="2015-12-30_2015-annuel-product-management-summary.html">2015年产品工作小结 &rarr;</a></li>
   </ul>
 </nav>
 
+<div class="comment">
+    <div class="page-header">
+        <h3>评论</h3>
+    </div>
 <!-- 多说评论框 start -->
-<div class="ds-thread" style="margin-top:50px;" data-thread-key="2015-08-31_note-agilely-with-workflowy" data-title="用 Workflowy 高效记笔记" data-url="http://blog.pmzhang.com/2015-08-31_note-agilely-with-workflowy.html"></div>
+    <div class="ds-thread" data-thread-key="2015-08-31_note-agilely-with-workflowy" data-title="用 Workflowy 高效记笔记" data-url="http://blog.pmzhang.com/2015-08-31_note-agilely-with-workflowy.html"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+</div>
 <script type="text/javascript">
 var duoshuoQuery = {short_name:"pmzhang"};
     (function() {
