@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PM老张 让axure回归本位</title>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="src/github-markdown.css">
+<link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+<style>
+
+body {background-color: #F2F2F2;}
+
+.container {max-width:750px;}
+
+#bloghead{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding:30px;
+    background-color: #159957;
+    background-image:linear-gradient(120deg, #155799, #159957);
+    color:#ffffff;
+}
+
+#bloghead a {color:#ffffff;}
+#bloghead h1 {font-size:48px;}
+#bloghead p {font-size:24px;}
+
+.comment,
+#article article,
+#article .page-header,
+#articleList .page-header {
+    background-color:#FFF;
+    padding:40px;
+    border:1px solid #dadada;
+    margin:30px 0;
+}
+
+.comment .page-header {
+    margin:0;
+}
+
+.comment .page-header h3,
+#article .page-header h1,
+#articleList .page-header h2 {
+    margin: 0px;
+}
+#articleList .page-header h2 a {
+    color:#000;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.image,
+#articleList .page-header p.readmore,
+#articleList .page-header p.excerpt {
+    font-size:1.2em;
+    margin:0px;
+    margin-top:30px;
+}
+
+#articleList .page-header h2 a {
+    color: #444;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.excerpt {
+    color: #6B6B6B;
+}
+
+@media (max-width: 480px) {
+    .comment,
+    #article article,
+    #article .page-header,
+    #articleList .page-header {
+        padding:20px;
+        margin:20px 0;
+    }
+
+    #article .page-header p.status,
+    #articleList .page-header p.status,
+    #articleList .page-header p.image,
+    #articleList .page-header p.readmore,
+    #articleList .page-header p.excerpt {
+        margin-top:20px;
+    }
+
+    #article .page-header h1,
+    #articleList .page-header h2 a {
+        font-size:24px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div id="bloghead">
+        <div class="container">
+            <h1><a href="index.html">PM老张</a></h1>
+            <p>Product Management and PHP Development</p>
+        </div>
+    </div>
+    <div class="container" style="padding-top:30px;padding-bottom:30px;">
+<div id="article">
+    <div class="page-header">
+        <h1>让axure回归本位 <small></small></h1>
+                    <p class="status" title="posted 2015-07-17">update 2016-10-04</p>
+            </div>
+
+    <article class="markdown-body">
+        <p>总有产品经理初学者问我axure的问题。关于软件本身的问题，一律回答，不会。这是真的。我没有专门学过axure，更谈不上会用。干了快五年多的产品工作，一只手数的过来的使用axure的次数，都是拿来就用，画画简单的线框图，甚至连需要google的问题都没有遇到过。</p>
+<p>但自从我第一次了解axure，我就非常清楚axure是一款怎样的软件，以及它不是怎样的软件。</p>
+<p>axure官方网站是这么定义的：</p>
+<blockquote>
+<blockquote>
+<p>Axure RP is a desktop application that gives business and UX professionals diagramming, documentation, and interactive tools to quickly design and share interactive prototypes and specifications.</p>
+</blockquote>
+</blockquote>
+<p><img src="src/2015-07-17_let-axure-return-original.png" alt="axure官网定义" /></p>
+<p>翻译过来意思是：</p>
+<blockquote>
+<blockquote>
+<p>axure rp 是一款给商业人事和用户体验从业者用的<strong>图形、文档、交互</strong>设计工具，用于快速设计和分享<strong>交互原型和说明</strong>。</p>
+</blockquote>
+</blockquote>
+<p>这个定义非常明确的说明，axure是一款用来做<strong>交互设计</strong>的工具，而不是纯粹的“原型工具”。相对产品经理，axure更适合给交互设计师使用。当然，在很多公司是没有专门的交互设计师的，产品经理兼任交互就另当别论。</p>
+<p>相较而言，产品经理关注的是产品宏观的全生命周期的信息，而交互设计师更关注具体的用户操作体验。产品经理在画原型的时候更多的是考虑这个功能（特性、界面……）提供给谁使用，能给用户带来怎样的价值，能为产品或企业带来什么利益。而交互设计师在画原型的时候更多更多的思考界面、控件怎样设计才能让用户感觉更加舒适，使用起来更加流畅。</p>
+<p>如果产品经理混淆了自己的角色，对微观细节给予过多的关注，往往会影响他的主业，忽略对产品原则、目标、计划、价值等问题的考量，会造成整个产品在构思或研发过程中的偏离。</p>
+<p>在产品的早期探索阶段，产品经理的作用是对产品进行功能构思和逻辑论证，要求敏捷测试，快速调整，用低保真的线框图更适应这种节奏。在产品的研发阶段，产品经理画图主要是为了描述需求，而需求的描述则不完全依靠原型，还包括用户故事、验收标准、测试用例等文本内容，以及思维导图、流程图等形式。描述需求的目标是让设计师和研发人员明白产品意图，而不是让他们照猫画虎，毕竟视觉方面，设计师理应比产品经理专业的多。否则当你费时费力用axure做了高保真，线条、颜色、字体、交互都面面俱到到几乎规定好了，你让真正负责UX的UI/UE干什么呢？</p>
+<p>因此我建议低年级产品经理在使用axure时，要提醒自己做原型的目的，注意节制，谨防落入为设计而设计的陷阱，本末倒置。其实如果没有要求必须用axure，我倒是更提倡使用balsamiq之类的mockups工具。如果真的需要高保真原型，比如给客户、老板看的，与其用axure做，不如直接请技术用前端框架（比如bootstrap，其实不难，产品也应该很容易掌握）搭一个，那才是真正过的高保真原型。</p>    </article >
+</div>
+
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="2014-12-25_those-things-on-pm.html">&larr; 《产品经理那些事儿》</a></li>
+    <li class="next"><a href="2015-08-31_note-agilely-with-workflowy.html">用 Workflowy 高效记笔记 &rarr;</a></li>
+  </ul>
+</nav>
+
+<div class="comment">
+    <div class="page-header">
+        <h3>评论</h3>
+    </div>
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2015-07-17_let-axure-return-original" data-title="让axure回归本位" data-url="http://blog.pmzhang.com/2015-07-17_let-axure-return-original.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+</div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"pmzhang"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <p style="text-align:right">
+            blog generated by <a href="https://github.com/citywill/mark2blog">mark2blog</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
