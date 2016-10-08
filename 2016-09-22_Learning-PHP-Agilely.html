@@ -24,8 +24,13 @@ body {background-color: #F2F2F2;}
 }
 
 #bloghead a {color:#ffffff;}
-#bloghead h1 {font-size:48px;}
-#bloghead p {font-size:24px;}
+#bloghead h1 {font-size:3em;}
+#bloghead p {font-size:2em;}
+
+#bloghead span.label {
+    font-size:0.5em;
+    font-weight: normal
+}
 
 .comment,
 #article article,
@@ -100,6 +105,11 @@ body {background-color: #F2F2F2;}
         <div class="container">
             <h1><a href="index.html">PM老张</a></h1>
             <p>Product Management and PHP Development</p>
+            <p>
+                <a href="https://www.zhihu.com/people/pmzhang" target="_blank"><span class="label label-primary">知乎</span></a>
+                <a href="http://weibo.com/citywill" target="_blank"><span class="label label-danger">微博</span></a>
+                <a href="atom.xml" target="_blank"><span class="label label-warning">RSS</span></a>
+            </p>
         </div>
     </div>
     <div class="container" style="padding-top:30px;padding-bottom:30px;">
@@ -111,7 +121,6 @@ body {background-color: #F2F2F2;}
 
     <article class="markdown-body">
         <p>近期给工程学院计算机专业的学生讲了一次讲座，主题是互联网创新和创业。其中重点介绍了应该如何学习编程语言，并以PHP为例做了点展开。本篇就是给学生们留的一个作业：创建自己的第一个php程序并在github上开源。</p>
-<h2>学习PHP的第一个问题，要不要学习</h2>
 <h2>PHP</h2>
 <ul>
 <li><a href="http://windows.php.net/download#php-7.0">windows安装</a></li>
@@ -136,7 +145,7 @@ body {background-color: #F2F2F2;}
 <li>将库pull到本地</li>
 <li>在根目录下创建以自己姓名命名+学号命名的目录</li>
 <li>在该目录下开发一个程序，实现用表单提交数据并存到文件中，并用另外一个文件显示存储的数据</li>
-<li>将程序push到github上，并发送pull request</li>
+<li>将程序push到github上，并发送pull request。</li>
 </ul>    </article >
 </div>
 
