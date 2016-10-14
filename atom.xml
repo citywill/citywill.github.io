@@ -5,8 +5,8 @@
             <description><![CDATA[Product Management and PHP Development]]></description>
             <link>http://blog.pmzhang.com</link>
             <language>zh_CN</language>
-            <pubDate>2016-10-09 14:22:48</pubDate>
-            <lastBuildDate>2016-10-09 14:22:48</lastBuildDate>
+            <pubDate>2016-10-14 15:56:53</pubDate>
+            <lastBuildDate>2016-10-14 15:56:53</lastBuildDate>
             <generator>pmzhang</generator>
             <ttl>600</ttl>
         
@@ -74,5 +74,11 @@
                     <title><![CDATA[《产品经理那些事儿》]]></title>
                     <link>http://blog.pmzhang.com/.html</link>
                     <description><![CDATA[这本书让我想起多年前读过的《走出软件作坊》（作者@阿朱 ）。同为IT职场小说，写的都是软件开发。不同的是，《走》描写程序员转型项目管理，《产》描写程序员转型产品管理。这些年很多传统软件公司受到互联网发展的影响，开始从做项目走向做产品。《产》这本书迎合了这个趋势。]]></description>
+                    <pubDate></pubDate>
+                </item>
+                <item>
+                    <title><![CDATA[Evernote 的变迁和坚持]]></title>
+                    <link>http://blog.pmzhang.com/.html</link>
+                    <description><![CDATA[如果你是对的，而且在坚持，那么就是对用户最好的教育。]]></description>
                     <pubDate></pubDate>
                 </item></channel></rss>

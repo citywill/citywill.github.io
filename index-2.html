@@ -20,12 +20,17 @@ body {background-color: #F2F2F2;}
     padding:30px;
     background-color: #159957;
     background-image:linear-gradient(120deg, #155799, #159957);
+}
+
+#bloghead h1 a {
+    font-size:1.2em;
     color:#ffffff;
 }
 
-#bloghead a {color:#ffffff;}
-#bloghead h1 {font-size:3em;}
-#bloghead p {font-size:2em;}
+#bloghead p.description {
+    font-size:1.6em;
+    color:#ffffff;
+}
 
 #bloghead span.label {
     font-size:0.5em;
@@ -104,12 +109,13 @@ body {background-color: #F2F2F2;}
     <div id="bloghead">
         <div class="container">
             <h1><a href="index.html">PM老张</a></h1>
-            <p>Product Management and PHP Development</p>
-            <p>
-                <a href="https://www.zhihu.com/people/pmzhang" target="_blank"><span class="label label-primary">知乎</span></a>
-                <a href="http://weibo.com/citywill" target="_blank"><span class="label label-danger">微博</span></a>
-                <a href="2016-10-09_about.html"><span class="label label-success">关于</span></a>
-                <a href="atom.xml" target="_blank"><span class="label label-warning">RSS</span></a>
+            <p class="description">Product Management and PHP Development</p>
+            <p class="nav">
+                <a href="index.html" class="btn btn-default btn-xs">首页</a>
+                <a href="https://www.zhihu.com/people/pmzhang" target="_blank" class="btn btn-primary btn-xs">知乎</a>
+                <a href="http://weibo.com/citywill" target="_blank" class="btn btn-danger btn-xs">微博</a>
+                <a href="2016-10-09_about.html" class="btn btn-info btn-xs">关于</a>
+                <a href="atom.xml" target="_blank" class="btn btn-warning btn-xs">RSS</a>
             </p>
         </div>
     </div>
@@ -132,6 +138,26 @@ body {background-color: #F2F2F2;}
         
         <p class="readmore" style="text-align: right">
             <a href="2014-12-25_those-things-on-pm.html" class="btn btn-danger">阅读全文</a>
+        </p>
+
+    </div>
+
+
+    <div class="page-header">
+
+        <h2>
+            <a href="2014-11-03_evernote-product-changes-and-insistence.html">
+                Evernote 的变迁和坚持            </a>
+        </h2>
+
+        <p class="status"><span>posted 2014-11-03</span></p>
+
+                    <p class="excerpt">如果你是对的，而且在坚持，那么就是对用户最好的教育。</p>
+        
+                    <p class="image"><img class="img-responsive" src="src/Evernote.jpg" alt="Evernote 的变迁和坚持" /></p>
+        
+        <p class="readmore" style="text-align: right">
+            <a href="2014-11-03_evernote-product-changes-and-insistence.html" class="btn btn-danger">阅读全文</a>
         </p>
 
     </div>
