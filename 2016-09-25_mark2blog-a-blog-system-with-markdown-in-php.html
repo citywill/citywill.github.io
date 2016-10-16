@@ -38,16 +38,16 @@ body {background-color: #F2F2F2;}
 }
 
 .comment,
-#article article,
-#article .page-header,
+#article,
 #articleList .page-header {
     background-color:#FFF;
-    padding:40px;
+    padding:39px;
     border:1px solid #dadada;
     margin:30px 0;
 }
 
-.comment .page-header {
+.comment .page-header,
+#article .page-header {
     margin:0;
 }
 
@@ -56,6 +56,7 @@ body {background-color: #F2F2F2;}
 #articleList .page-header h2 {
     margin: 0px;
 }
+
 #articleList .page-header h2 a {
     color:#000;
 }
@@ -70,6 +71,15 @@ body {background-color: #F2F2F2;}
     margin-top:30px;
 }
 
+
+#article .page-header p.status{
+    margin-bottom:20px;
+}
+
+article {
+    margin-top: 30px;
+}
+
 #articleList .page-header h2 a {
     color: #444;
 }
@@ -82,8 +92,7 @@ body {background-color: #F2F2F2;}
 
 @media (max-width: 480px) {
     .comment,
-    #article article,
-    #article .page-header,
+    #article,
     #articleList .page-header {
         padding:20px;
         margin:20px 0;
@@ -119,7 +128,7 @@ body {background-color: #F2F2F2;}
             </p>
         </div>
     </div>
-    <div class="container" style="padding-top:30px;padding-bottom:30px;">
+    <div class="container" style="padding-bottom:30px;">
 <div id="article">
     <div class="page-header">
         <h1>Mark2blog，将markdown文档生成博客的php程序 <small></small></h1>
