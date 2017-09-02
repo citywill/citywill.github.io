@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PM老张 敏捷学习PHP（一）在windows环境下安装PHP 7</title>
+<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css
+" rel="stylesheet">
+<link rel="stylesheet" href="src/github-markdown.css">
+<link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon">
+<style>
+
+body {background-color: #F2F2F2;}
+
+.container {max-width:750px;}
+
+#bloghead{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding:30px;
+    background-color: #159957;
+    background-image:linear-gradient(120deg, #155799, #159957);
+}
+
+#bloghead h1 a {
+    font-size:1.2em;
+    color:#ffffff;
+}
+
+#bloghead p.description {
+    font-size:1.6em;
+    color:#ffffff;
+}
+
+#bloghead span.label {
+    font-size:0.5em;
+    font-weight: normal
+}
+
+.comment,
+#article,
+#articleList .page-header {
+    background-color:#FFF;
+    padding:39px;
+    border:1px solid #dadada;
+    margin:30px 0;
+}
+
+.comment .page-header,
+#article .page-header {
+    margin:0;
+}
+
+.comment .page-header h3,
+#article .page-header h1,
+#articleList .page-header h2 {
+    margin: 0px;
+}
+
+#articleList .page-header h2 a {
+    color:#000;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.image,
+#articleList .page-header p.readmore,
+#articleList .page-header p.excerpt {
+    font-size:1.2em;
+    margin:0px;
+    margin-top:30px;
+}
+
+
+#article .page-header p.status{
+    margin-bottom:20px;
+}
+
+article {
+    margin-top: 30px;
+}
+
+#articleList .page-header h2 a {
+    color: #444;
+}
+
+#article .page-header p.status,
+#articleList .page-header p.status,
+#articleList .page-header p.excerpt {
+    color: #6B6B6B;
+}
+
+@media (max-width: 480px) {
+    .comment,
+    #article,
+    #articleList .page-header {
+        padding:20px;
+        margin:20px 0;
+    }
+
+    #article .page-header p.status,
+    #articleList .page-header p.status,
+    #articleList .page-header p.image,
+    #articleList .page-header p.readmore,
+    #articleList .page-header p.excerpt {
+        margin-top:20px;
+    }
+
+    #article .page-header h1,
+    #articleList .page-header h2 a {
+        font-size:24px;
+    }
+}
+
+</style>
+</head>
+<body>
+    <div id="bloghead">
+        <div class="container">
+            <h1><a href="index.html">PM老张</a></h1>
+            <p class="description">Product Management and PHP Development</p>
+            <p class="nav">
+                <a href="index.html" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-home"></span></a>
+                <a href="https://www.zhihu.com/people/pmzhang" target="_blank" class="btn btn-primary btn-sm">知乎</a>
+                <a href="http://weibo.com/citywill" target="_blank" class="btn btn-danger btn-sm">微博</a>
+                <a href="about.html" class="btn btn-info btn-sm">关于</a>
+                <a href="atom.xml" target="_blank" class="btn btn-warning btn-sm">RSS</a>
+            </p>
+        </div>
+    </div>
+    <div class="container" style="padding-bottom:30px;">
+<div id="article">
+    <div class="page-header">
+        <h1>敏捷学习PHP（一）在windows环境下安装PHP 7 <small></small></h1>
+                    <p class="status">posted 2016-10-18</p>
+            </div>
+
+    <article class="markdown-body">
+        <p>和在ubutntu直接apt-get相比，在windows下安装PHP还是稍显麻烦。大致步骤如下：</p>
+<ol>
+<li>在PHP官网下载zip压缩包并解压</li>
+<li>创建php.ini配置文件</li>
+<li>设置环境变量</li>
+<li>安装VC Redist</li>
+<li>启动cli-Server服务并运行phpinfo()</li>
+</ol>
+<h2>在PHP官网下载zip压缩包并解压</h2>
+<p>到这里下载PHP在windows下的压缩包：<a href="http://windows.php.net/download/">http://windows.php.net/download/</a></p>
+<p>php7有多个文件提供下载，包括<code>x86/x64</code>和<code>Non Thread Safe/Thread Safe</code>两对组合的四个选择。</p>
+<p><img src="src/php-tutorials/setup-php-7-windows-download.png" alt="" /></p>
+<p>其中Non Thread Safe/Thread Safe（非线程安全/线程安全）在开发阶段不用考虑，选择任意一个即可。</p>
+<p>而<code>x86/x64</code>要看你的计算机cpu和操作系统是什么类型。如果是32位选择x86，如果是64位选择x64。如果你不知道，可以进入<code>控制面板-系统</code>查看，能够看到如下的显示：</p>
+<p><img src="src/php-tutorials/setup-php-7-windows-x.png" alt="" /></p>
+<p>这说明你的适合下载x64的版本。</p>
+<p>将zip压缩包下载后，解压到任意目录，比如<code>c:\php</code>。注意文件要直接压缩到该目录下，通过<code>c:\php\php.exe</code>能够访问到php。</p>
+<h2>创建php.ini配置文件</h2>
+<p>将php所在目录的<code>php.ini-development</code>文件复制一份，更名为<code>php.ini</code>。</p>
+<p>这个文件是php的配置文件，暂时不需要修改文件内容。</p>
+<h2>设置环境变量</h2>
+<p>为了在任意路径下方便的访问php，我们要将php目录设置到环境变量中。环境变量的设置在<code>控制面板-系统-高级系统设置-环境变量-用户环境变量</code>，其中找到<code>path</code>项点击<code>编辑</code>按钮，如果没有path项则点击<code>新建</code>按钮。将php所在目录如c:\php加入到path变量中。</p>
+<p>这时可以通过<code>win-r</code>，输入cmd，打开命令行窗口，在任意路径下运行<code>php -v</code>，如果能显示出正确的版本信息，就安装成功了。</p>
+<pre><code>&gt;php -v
+PHP 7.0.11 (cli) (built: Sep 13 2016 15:37:04) ( NTS )
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies</code></pre>
+<p>但如果报错，提示没有vc redist，就需要安装VC Redist。</p>
+<h2>安装VC Redist</h2>
+<p>VC Redist是微软VC++的运行环境，因为PHP在windows下的版本是通过VC编译的，因此要安装该软件。</p>
+<p>下载地址是：
+<a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=48145">https://www.microsoft.com/zh-CN/download/details.aspx?id=48145</a></p>
+<p>下载后按照默认预设安装即可。</p>
+<h2>启动cli-Server服务并运行phpinfo()</h2>
+<p>php最佳用途是做web服务端程序，因此php自5.4版本增加了cli-server，提供了简单的http服务。通过使用cli-server，我们可以不同安装apache/nginx就能运行php程序了。</p>
+<p>启动cli-server很简单，只要在程序所在目录运行：</p>
+<pre><code>php -S localhost:8080</code></pre>
+<p>注意几点：</p>
+<ul>
+<li>-S 参数是大写</li>
+<li>localhost是本机地址，如果希望其他机器访问，则可换成0.0.0.0</li>
+<li>8080是端口号，可任意修改，只要注意避免和其它服务重复</li>
+<li>当一个服务启动后，关闭命令窗口或者<code>ctrl-c</code>都可以结束服务</li>
+<li>可以同时启动多个服务，但端口号要不同</li>
+</ul>
+<p>关于cli-server的更多功能请见官方文档：
+<a href="http://php.net/manual/zh/features.commandline.webserver.php">http://php.net/manual/zh/features.commandline.webserver.php</a></p>
+<p>phpinfo()是php的内置函数，用于查看php运行环境。我们可以选择一个目录作为web程序的根目录，比如<code>d:\www</code>。在其中创建一个文件<code>index.php</code>，在里面写入以下代码：</p>
+<pre><code>&lt;?php
+phpinfo()
+</code></pre>
+<p>然后在当前目录下运行cli-server，并通过浏览器访问<code>http://localhost:8080</code>，就能看到显示php运行环境的一个列表了。</p>    </article >
+</div>
+
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="2016-09-25_mark2blog-a-blog-system-with-markdown-in-php.html">&larr; Mark2blog，将markdown文档生成博客的php程序</a></li>
+  </ul>
+</nav>
+
+<div class="comment">
+    <div class="page-header">
+        <h3>评论</h3>
+    </div>
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016-10-18_setup-php-7-windows" data-title="敏捷学习PHP（一）在windows环境下安装PHP 7" data-url="http://www.pmzhang.com/2016-10-18_setup-php-7-windows.html"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+</div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"pmzhang"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+</div>
+<div class="footer">
+    <div class="container">
+        <p style="text-align:right">
+            blog generated by <a href="https://github.com/citywill/mark2blog">mark2blog</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
