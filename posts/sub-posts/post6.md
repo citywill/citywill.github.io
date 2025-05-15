@@ -3,10 +3,15 @@ title: 运动的乐趣
 datetime: '2023-10-06 10:00:00'
 permalink: /posts/c10a87
 outline: deep
-order: 2
 category: 子文章
 tags:
   - 运动的乐趣
+prev:
+  text: 夜空的思考
+  link: /posts/b808f8
+next:
+  text: 观察日常
+  link: /posts/e07056
 ---
 
 # 运动的乐趣

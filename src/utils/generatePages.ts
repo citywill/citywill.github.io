@@ -35,7 +35,7 @@ ${custom}
 ---
 layout: page
 ---
-<Home imgUrl="/profile.png" title="只抄" desc="Less is more." :links="[{ url: 'https://github.com/izhichao/vitepress-theme-minimalism', text: 'Github ->' }]" />
+<Home imgUrl="/profile.svg" title="Citywill" desc="CityWill" :links="[{ url: '/posts', text: '开始' }]" />
     `.trim();
     await fs.writeFile(indexPath, page);
   }

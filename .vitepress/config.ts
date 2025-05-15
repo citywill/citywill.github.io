@@ -2,16 +2,16 @@ import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
 const { posts, rewrites } = await usePosts({
-  pageSize: 6,
+  pageSize: 12,
   homepage: true,
   srcDir: 'posts',
   autoExcerpt: 150
 });
 
 export default defineConfig<ThemeConfig>({
-  title: '只抄',
-  titleTemplate: 'VitePress Theme Minimalism',
-  description: 'VitePress Theme Minimalism',
+  title: 'CityWill',
+  titleTemplate: '碎片化知识拼图',
+  description: 'citywill的知识拼图',
   rewrites,
   cleanUrls: true,
   ignoreDeadLinks: true,
@@ -20,15 +20,14 @@ export default defineConfig<ThemeConfig>({
     page: {
       max: 5
     },
-    logo: '/profile.png',
+    logo: '/profile.svg',
     outline: { level: 2 },
     nav: [
       { text: '首页', link: '/' },
-      { text: '文章', link: '/page-1' },
-      { text: '文档', link: '/docs/doc1' },
       { text: '分类', link: '/category' },
       { text: '标签', link: '/tags' },
-      { text: '归档', link: '/archives' }
+      { text: '归档', link: '/archives' },
+      // { text: '文档', link: '/docs/doc1' },
     ],
     sidebar: {
       '/docs': [
@@ -44,11 +43,11 @@ export default defineConfig<ThemeConfig>({
         }
       ]
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/izhichao/vitepress-theme-minimalism' }],
+    // socialLinks: [{ icon: 'github', link: 'https://github.com/izhichao/vitepress-theme-minimalism' }],
     footer: {
-      message:
-        'Theme by <a href="https://github.com/izhichao/vitepress-theme-minimalism" target="_blank">Minimalism</a>',
-      copyright: 'Copyright © 2017-2025 <a href="https://github.com/izhichao" target="_blank">只抄</a>'
+      // message:
+        // 'Theme by <a href="https://github.com/izhichao/vitepress-theme-minimalism" target="_blank">Minimalism</a>',
+      copyright: 'Copyright © CityWill.cn'
     },
     search: { provider: 'local' }
   },

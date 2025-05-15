@@ -1,10 +1,5 @@
 <template>
   <Layout>
-    <template #doc-after>
-      <AdItem :custom="ad" type="doc" />
-      <AdItem :adsense="adsense" type="doc" />
-      <CommentItem />
-    </template>
     <template #doc-footer-before>
       <PostInfoItem />
     </template>

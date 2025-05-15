@@ -9,6 +9,9 @@
           </span>
           <a :href="withBase(post.permalink)">{{ post.title }}</a>
         </div>
+        <div class="post__image">
+          <img :src="withBase(`https://image.pollinations.ai/prompt/用以下主题做一张博客插图：${ post.title }?width=600&height=200&enhance=true&nologo=true&model=flux`)" />
+        </div>
         <div class="post__excerpt" v-if="post.excerpt">
           <a :href="withBase(post.permalink)">{{ post.excerpt }}</a>
         </div>
@@ -103,8 +106,8 @@ const page = theme.value.page;
   }
 
   &__title {
-    font-size: 1.125rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 500; 
     margin-bottom: 8px;
 
     a {
@@ -116,15 +119,22 @@ const page = theme.value.page;
     }
   }
 
+  &__image {
+    img {
+      border-radius: 5px;
+    }
+  }
+
   &__excerpt {
-    font-size: 0.9375rem;
+    font-size: 1rem;
     color: var(--vp-c-text-2);
-    margin-bottom: 8px;
+    margin: 12px 0;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 50px;
   }
 
   &__date,

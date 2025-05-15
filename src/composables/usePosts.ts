@@ -11,7 +11,7 @@ import { writeMd } from '../utils/writeMd';
 import { formatDate } from '../utils/formatDate';
 
 export const usePosts = async ({
-  pageSize = 10,
+  pageSize = 12,
   homepage = true,
   srcDir = 'posts',
   outDir = '',

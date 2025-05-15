@@ -5,7 +5,8 @@ permalink: /posts/36fb63
 outline: deep
 category: 子文章
 tags:
-  - 一杯茶的时光
+  - 茶
+  - 时光
 next:
   text: 音乐的魔力
   link: /posts/0e1cd7

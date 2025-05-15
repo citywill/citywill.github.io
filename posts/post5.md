@@ -7,8 +7,8 @@ category: 文章
 tags:
   - 观察日常
 prev:
-  text: 夜空的思考
-  link: /posts/b808f8
+  text: 运动的乐趣
+  link: /posts/c10a87
 next:
   text: 一次难忘的午餐
   link: /posts/73a18e

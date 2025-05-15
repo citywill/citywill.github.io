@@ -10,8 +10,8 @@ prev:
   text: 短暂的宁静
   link: /posts/2fc5ad
 next:
-  text: 观察日常
-  link: /posts/e07056
+  text: 运动的乐趣
+  link: /posts/c10a87
 ---
 
 # 夜空的思考
