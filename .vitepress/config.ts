@@ -3,7 +3,7 @@ import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
 const { posts, rewrites } = await usePosts({
   pageSize: 6,
-  homepage: false,
+  homepage: true,
   srcDir: 'posts',
   autoExcerpt: 150
 });
