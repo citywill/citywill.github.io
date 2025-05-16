@@ -24,7 +24,7 @@ export const usePosts = async ({
 }) => {
   const rewrites = {};
   try {
-    const paths = await fg(`${srcDir}/**/*.md`);
+    const paths = await fg(`${srcDir}/**/*.md`,{ ignore: [`${srcDir}/template/*.md`] });
     let categoryFlag = false;
     let tagFlag = false;
     const posts = await Promise.all(
