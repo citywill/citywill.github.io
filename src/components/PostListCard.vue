@@ -19,7 +19,7 @@
       <div>
         <span class="post__date">
           <Icon class="iconify" icon="mingcute:time-line" />
-          <span class="post__date__item">{{ post.datetime.split(' ')[0] }}</span>
+            <span class="post__date__item">{{ post.datetime.split(' ')[0] }}</span>
         </span>
         <span class="post__category" v-if="post.category">
           <Icon class="iconify" icon="iconamoon:category" />
@@ -106,8 +106,8 @@ const page = theme.value.page;
   }
 
   &__title {
-    font-size: 1.2rem;
-    font-weight: 500; 
+    font-size: 1rem;
+    font-weight: 600; 
     margin-bottom: 8px;
 
     a {

@@ -1,14 +1,14 @@
 ---
-created: '2023-04-14 18:21:06'
 title: 关于我
-datetime: '2025-05-15 20:47:13'
+datetime: '2023-04-14 18:21:06'
 permalink: /posts/80d0d2
+category: 博客
 prev:
-  text: 新的笔记站点上线了
-  link: /posts/202505161051
+  text: 技术分类（通用技术、一般技术、关键技术、核心技术）
+  link: /posts/202306251647
 next:
-  text: 老张的卡片盒子
-  link: /posts/89dbc3
+  text: 当我们不再理解世界，反而说明我们接近了真相
+  link: /posts/202304100813
 ---
 # 关于我
 
