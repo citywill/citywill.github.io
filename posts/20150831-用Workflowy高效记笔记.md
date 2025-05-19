@@ -1,18 +1,26 @@
 ---
-title: 用 Workflowy 高效记笔记
-excerpt: workflowy是14年才发现的工具。今年才开始重用。现在每天有大量时间用在workflowy上面。这不是一篇workflowy的教程，只是我做笔记和使用workflowy的一些感受。
+excerpt: >-
+  workflowy是14年才发现的工具。今年才开始重用。现在每天有大量时间用在workflowy上面。这不是一篇workflowy的教程，只是我做笔记和使用workflowy的一些感受。
 image: ../assets/2015-08-31_note-agilely-with-workflowy_friends.jpg
 imageAlt: 我们买票又不是为了看搞笑秀
+updated: 2022-06-02T00:00:00.000Z
+title: 用 Workflowy 高效记笔记
 datetime: '2015-08-31 00:00'
-updated: 2022-06-02
-tags: 
-  - 笔记
+permalink: /posts/e087c2
 category: 永久笔记
+tags:
+  - 笔记
+prev:
+  text: 2015年产品工作小结
+  link: /posts/a15874
+next:
+  text: 想起了吴用
+  link: /posts/201508110749
 ---
 
 # 用 Workflowy 高效记笔记
 
-![2015-08-31_note-agilely-with-workflowy_friends](../assets/2015-08-31_note-agilely-with-workflowy_friends.jpg)
+![2015-08-31_note-agilely-with-workflowy_friends](assets/2015-08-31_note-agilely-with-workflowy_friends.jpg)
 
 常在知乎看到有人这么推销笔记技巧：
 
