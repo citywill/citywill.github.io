@@ -10,8 +10,16 @@
           <a :href="withBase(post.permalink)">{{ post.title }}</a>
         </div>
         <div class="post__image">
-          <img :src="withBase(`https://image.pollinations.ai/prompt/用以下主题做一张博客插图：${ post.title }?width=600&height=200&enhance=true&nologo=true&model=flux`)" />
-        </div>
+          <img 
+            v-if="post.image" 
+            :src="post.image" 
+            alt="博客插图" 
+          />
+          <img 
+            v-else 
+            :src="withBase(`https://image.pollinations.ai/prompt/用以下主题做一张博客插图：${ post.title }?width=600&height=200&enhance=true&nologo=true&model=flux`)" 
+            alt="默认博客插图" 
+          />        </div>
         <div class="post__excerpt" v-if="post.excerpt">
           <a :href="withBase(post.permalink)">{{ post.excerpt }}</a>
         </div>
@@ -120,8 +128,15 @@ const page = theme.value.page;
   }
 
   &__image {
+    overflow: hidden; /* 隐藏超出部分 */
+    max-height: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     img {
-      border-radius: 5px;
+      justify-content: center;  /* 水平居中 */
+      width: 100%;    /* 图片最大宽度为容器宽度 */
+      height: auto;       /* 高度自适应，保持比例 */
+      display: block;     /* 移除图片底部间隙 */
     }
   }
 
