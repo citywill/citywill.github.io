@@ -27,8 +27,8 @@ import { ref } from 'vue';
 import { useData } from 'vitepress';
 import { useGroup } from '../composables/useGroup';
 import LinkList from '../components/LinkList.vue';
-import PostList from '../components/PostListCard.vue';
-import PostListLite from '../components/PostListCard.vue';
+import PostList from '../components/PostListWaterfall.vue';
+import PostListLite from '../components/PostListWaterfall.vue';
 
 const props = defineProps({
   type: {

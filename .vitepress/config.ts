@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
 const { posts, rewrites } = await usePosts({
-  pageSize: 12,
+  pageSize: 24,
   homepage: true,
   srcDir: 'posts',
   autoExcerpt: 150

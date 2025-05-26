@@ -13,7 +13,7 @@
 
 <script lang="ts" setup>
 import { useData } from 'vitepress';
-import PostList from '../components/PostListCard.vue';
+import PostList from '../components/PostListWaterfall.vue';
 import Pagination from '../components/Pagination.vue';
 import type { IPost } from '../types';
 
