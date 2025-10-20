@@ -17,12 +17,12 @@
               alt="博客插图" 
               @load="onImageLoad"
             />
-            <img 
+            <!-- <img 
               v-else 
               :src="withBase(`https://image.pollinations.ai/prompt/用以下主题做一张博客插图：${ post.title }?width=600&height=200&enhance=true&nologo=true&model=flux`)" 
               alt="默认博客插图" 
               @load="onImageLoad"
-            />
+            /> -->
           </div>
           <div class="post__excerpt" v-if="post.excerpt">
             <a :href="withBase(post.permalink)">{{ post.excerpt }}</a>
@@ -216,11 +216,11 @@ onUnmounted(() => {
     color: var(--vp-c-text-2);
     margin: 12px 0;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 50px;
+    max-height: 100px;
   }
 
   &__date,
