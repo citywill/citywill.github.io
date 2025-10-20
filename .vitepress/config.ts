@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
+import sidebarItems from "./sidebar_items.json";
 const { posts, rewrites } = await usePosts({
   pageSize: 24,
   homepage: true,
@@ -27,23 +28,9 @@ export default defineConfig<ThemeConfig>({
       { text: '分类', link: '/category' },
       { text: '标签', link: '/tags' },
       { text: '归档', link: '/archives' },
-      { text: '文档', link: '/docs/' },
+      { text: '项目', link: '/docs/' },
     ],
-    sidebar: {
-      '/docs/dianfanbao': [
-        {
-          text: '如何使用电饭煲',
-          items: [
-            { text: '首页', link: '/docs/dianfanbao/' },
-            { text: '选择合适的电饭煲', link: '/docs/dianfanbao/doc1' },
-            { text: '煮出松软米饭的技巧', link: '/docs/dianfanbao/doc2' },
-            { text: '电饭煲的多功能用途', link: '/docs/dianfanbao/doc3' },
-            { text: '电饭煲的清洁与保养', link: '/docs/dianfanbao/doc4' },
-            { text: '电饭煲常见问题处理', link: '/docs/dianfanbao/doc5' }
-          ]
-        }
-      ]
-    },
+    sidebar: sidebarItems,
     // socialLinks: [{ icon: 'github', link: 'https://github.com/izhichao/vitepress-theme-minimalism' }],
     footer: {
       // message:
