@@ -11,7 +11,7 @@ export const generatePages = async (
   slot?: string,
   custom?: string
 ) => {
-  const indexPath = path.resolve(outDir, 'index.md');
+  const indexPath = path.resolve(outDir, 'notes.md');
 
   const indexExist = await fileExists(indexPath);
   const pageTotal = total > 0 ? Math.ceil(total / pageSize) : 0;

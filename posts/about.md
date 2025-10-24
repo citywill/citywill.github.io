@@ -4,8 +4,8 @@ datetime: '2013-04-14 18:21:06'
 permalink: /posts/about
 category: 博客
 prev:
-  text: 用职务特征模型指导职业选择和发展
-  link: /posts/201504161718
+  text: 没有测试人员的产品项目如何保证产品质量？
+  link: /posts/201308281332
 ---
 # 关于我
 
