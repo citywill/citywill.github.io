@@ -12,7 +12,7 @@ const { posts, rewrites } = await usePosts({
 export default defineConfig<ThemeConfig>({
   title: 'CityWill',
   titleTemplate: '碎片化知识拼图',
-  description: 'citywill的知识拼图',
+  description: '认知和专注领域终身学习者、产品经理、AI替身、存在主义者',
   rewrites,
   cleanUrls: true,
   ignoreDeadLinks: true,
