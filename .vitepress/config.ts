@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
-import sidebarItems from "./sidebar_items.json";
+import sidebarMyProductView from "../projects/my-product-view/sidebar.json";
+import sidebarMyWeltanschauung from "../projects/my-weltanschauung/sidebar.json";
 const { posts, rewrites } = await usePosts({
   pageSize: 24,
-  homepage: true,
+  homepage: false,
+  outDir: './pages/',
   srcDir: 'posts',
   autoExcerpt: 300
 });
@@ -22,21 +24,34 @@ export default defineConfig<ThemeConfig>({
       max: 5
     },
     logo: '/profile.svg',
-    outline: { level: 2 },
+    outline: { level: [2, 4] },
     nav: [
       { text: '首页', link: '/' },
       { text: '笔记盒', items: [
-        { text: '笔记', link: '/notes' },
-        { text: '分类', link: '/category' },
-        { text: '标签', link: '/tags' },
-        { text: '归档', link: '/archives' },
-      ] },
-      // { text: '分类', link: '/category' },
-      // { text: '标签', link: '/tags' },
-      // { text: '归档', link: '/archives' },
-      // { text: '项目', link: '/docs/' },
+          { text: '笔记', link: '/notes' },
+          { text: '分类', link: '/category' },
+          { text: '标签', link: '/tags' },
+          { text: '归档', link: '/archives' },
+        ]
+      },
     ],
-    sidebar: sidebarItems,
+    sidebar: {
+      "/projects/my-product-view": [
+        {
+          "text": "🎯我的产品观",
+          "link": "/",
+          "base": "/projects/my-product-view/",
+          "items": sidebarMyProductView
+        }
+      ],
+      "/projects/my-weltanschauung": [
+        {
+          "text": "🌍我的世界观",
+          "base": "/projects/my-weltanschauung/",
+          "items": sidebarMyWeltanschauung
+        }
+      ]
+    },
     // socialLinks: [{ icon: 'github', link: 'https://github.com/izhichao/vitepress-theme-minimalism' }],
     footer: {
       // message:
