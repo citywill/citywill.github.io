@@ -20,6 +20,7 @@ export default defineConfig<ThemeConfig>({
   ignoreDeadLinks: true,
   themeConfig: {
     posts,
+    outDir: './pages/',
     page: {
       max: 5
     },
@@ -28,10 +29,10 @@ export default defineConfig<ThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       { text: '笔记盒', items: [
-          { text: '笔记', link: '/notes' },
-          { text: '分类', link: '/category' },
-          { text: '标签', link: '/tags' },
-          { text: '归档', link: '/archives' },
+          { text: '笔记', link: '/pages' },
+          { text: '分类', link: '/pages/category' },
+          { text: '标签', link: '/pages/tags' },
+          { text: '归档', link: '/pages/archives' },
         ]
       },
     ],
