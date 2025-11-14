@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.folder == "posts"
+formulas:
+  年月: datetime.format("YYYY-MM")
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - datetime
+      - title
+      - tags
+      - category
+      - formula.年月
+    sort:
+      - property: formula.年月
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: datetime
+        direction: DESC
+    columnSize:
+      file.name: 285
+      note.datetime: 168
+      note.title: 306

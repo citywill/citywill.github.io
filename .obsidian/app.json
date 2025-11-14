@@ -8,5 +8,7 @@
     "pages/",
     "projects/"
   ],
-  "showLineNumber": true
+  "showLineNumber": true,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
