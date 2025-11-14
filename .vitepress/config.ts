@@ -20,8 +20,8 @@ export default defineConfig<ThemeConfig>({
   ignoreDeadLinks: true,
   themeConfig: {
     posts,
-    outDir: './pages/',
     page: {
+      outDir: './pages',
       max: 5
     },
     logo: '/profile.svg',
