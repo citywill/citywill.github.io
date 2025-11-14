@@ -7,12 +7,12 @@
       class="pagination__link"
       v-for="page in pages"
       :key="page"
-      :href="withBase(page === 1 && homepage ? '/index.html' : `/page-${page}.html`)"
+      :href="withBase(page === 1 && homepage ? '${outDir}/index.html' : `${outDir}/page-${page}.html`)"
       :class="{ 'pagination__link--active': pagination === page }"
     >
       {{ page }}
     </a>
-    <a class="pagination__link" :href="withBase(`/page-${total}.html`)" v-if="total > max">
+    <a class="pagination__link" :href="withBase(`${outDir}/page-${total}.html`)" v-if="total > max">
       <Icon class="iconify" icon="material-symbols:keyboard-double-arrow-right-rounded" />
     </a>
   </div>
@@ -22,6 +22,8 @@
 import { ref } from 'vue';
 import { useData, withBase } from 'vitepress';
 import { Icon } from '@iconify/vue';
+import { useOutDir } from '../composables/useOutDir';
+const { outDir } = useOutDir();
 
 const props = defineProps({
   pagination: { type: Number, required: true },
