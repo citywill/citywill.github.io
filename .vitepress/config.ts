@@ -4,8 +4,8 @@ import type { ThemeConfig } from '../src/types';
 import sidebarMyProductView from "../projects/my-product-view/sidebar.json";
 import sidebarMyWeltanschauung from "../projects/my-weltanschauung/sidebar.json";
 const { posts, rewrites } = await usePosts({
-  pageSize: 24,
-  homepage: false,
+  pageSize: 20,
+  homepage: true,
   outDir: './pages/',
   srcDir: 'posts',
   autoExcerpt: 300
