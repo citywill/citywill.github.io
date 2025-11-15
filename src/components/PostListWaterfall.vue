@@ -11,12 +11,14 @@
             <a :href="withBase(post.permalink)">{{ post.title }}</a>
           </div>
           <div class="post__image">
-            <img 
-              v-if="post.image" 
-              :src="post.image" 
-              alt="博客插图" 
-              @load="onImageLoad"
-            />
+            <a :href="withBase(post.permalink)">
+              <img 
+                v-if="post.image" 
+                :src="post.image" 
+                alt="博客插图" 
+                @load="onImageLoad"
+              />
+            </a>
             <!-- <img 
               v-else 
               :src="withBase(`https://image.pollinations.ai/prompt/用以下主题做一张博客插图：${ post.title }?width=600&height=200&enhance=true&nologo=true&model=flux`)" 
