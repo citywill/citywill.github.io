@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c538fb73ac0e757e",
+        "id": "e39edfe047baa171",
         "type": "tabs",
         "children": [
           {
-            "id": "d804d276bababb73",
+            "id": "0746fcd991fb8ef4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/Pasted image 20220606185939.png"
               },
-              "icon": "lucide-file",
-              "title": "201308281332-没有测试人员的产品项目如何保证产品质量？"
+              "icon": "lucide-image",
+              "title": "Pasted image 20220606185939"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:产品",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 445.5
   },
   "right": {
     "id": "368059b9ff12acf0",
@@ -109,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "assets/Pasted image 20220606185939.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Pasted image 20220606185939 的反向链接列表"
             }
           },
           {
@@ -162,8 +161,7 @@
               "title": "大纲"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,44 +178,44 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "d804d276bababb73",
+  "active": "0746fcd991fb8ef4",
   "lastOpenFiles": [
-    "posts/202305221626-一个反骨读《世界上最幸运的人》后的三个感受.md",
+    "assets/Pasted image 20220617125400.png",
+    "posts/201605150000-那啥，叫老人加快步伐吧.md",
+    "assets/Pasted image 20220515141807.png",
+    "assets/2016-09-25_foreign-product-manager-website_productmanagerhq.jpg",
+    "assets/20220605-输出式阅读法.svg",
+    "assets/20220818-文档象限.svg",
+    "assets/20230309-中台架构.svg",
+    "assets/20230414-当我们不再理解世界.jpg",
+    "assets/20230625-核心技术和关键技术.svg",
+    "assets/202302241054-好的用户体验是用最佳实践先于自由选择-蘸料.png",
+    "assets/202303090800-为什么要分三个中台.png",
+    "pages/index.md",
+    "posts/201601060000-当个图书管理员可好？.md",
+    "posts/202206010000-红药丸？蓝药丸？.md",
+    "posts/202304100813-当我们不再理解世界，反而说明我们接近了真相.md",
+    "posts/202206061351-做对产品的观点画布.md",
+    "posts/202206052249-为输出而阅读还是为了阅读而输出？.md",
+    "projects/my-weltanschauung/201605150000-那啥，叫老人加快步伐吧.md",
+    "posts/202303120248-对产品经理的边界和外延发点牢骚.md",
     "posts目录.base",
+    "posts/201411030000-Evernote的变迁和坚持.md",
+    "posts/202505161051-新的笔记站点上线了.md",
+    "posts/202302232108-使用 ChatGPT 辅助编程的效用提升和风险.md",
+    "posts/202505290856-智能体、应用和智能体应用.md",
+    "projects/my-product-view/201411030000-Evernote的变迁和坚持.md",
+    "posts/201304141821-about.md",
+    "posts/201508310000-用Workflowy高效记笔记.md",
+    "posts/201507131916-产品经理的能力素质模型.md",
+    "posts/202505152047-老张的卡片盒子.md",
+    "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
+    "pages/page-4.md",
+    "posts/202305221626-一个反骨读《世界上最幸运的人》后的三个感受.md",
     "posts/202309260932-产品和项目的关系.md",
     "posts/202309261449-需求及需求分析.md",
     "posts/202308161604-gitlab代码治理.md",
     "posts/202308181444-到底什么是软件配置管理？.md",
-    "posts/202008170930-产品要素.md",
-    "posts/202505261517-液相色谱图数据还原和峰值、面积计算方案.md",
-    "assets/202505261517-液相色谱图报告.png",
-    "assets/202505261517-识别出的数据散点图.png",
-    "posts/202303090800-我给出的中台的定义.md",
-    "assets/202303090800-为什么要建设中台.png",
-    "assets/202303090800-为什么要分三个中台.png",
-    "assets/20230309-中台架构.svg",
-    "posts/202504271945-大语言模型（Large Language Model，LLM）.md",
-    "posts/202511151250-MetaContex海宁云枢项目初验风波.md",
-    "assets/202511151250-MetaContex海宁云枢项目初验风波.png",
-    "posts/202507141844-用AI弄弄.md",
-    "assets/20250714183530-用AI弄弄.png",
-    "posts/202508142116-IP专属的人工智能语音互动产品.md",
-    "assets/202508142116-IP专属的人工智能语音互动产品.png",
-    "assets/202509131504-AI辅助的两个极端和平衡.png",
-    "posts/202511131504-AI辅助的两个极端和平衡.md",
-    "posts/202509131504-AI辅助的两个极端和平衡.md",
-    "未命名.md",
-    "未命名 1.md",
-    "posts/202511061825-AI辅助系统设计方案写作的几点问题.md",
-    "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
-    "posts/202506050857-传统应用到智能体应用的升级改造路径.md",
-    "posts/202510191233-如何用Obsidian实施PARA.md",
-    "assets/202510191233-如何用Obsidian实施PARA.png",
-    "posts/202401190838-低代码和代码生成等传统快速开发方式的差别.md",
-    "posts/202212220853-8招写好文档.md",
-    "posts/202505161051-新的笔记站点上线了.md",
-    "posts/202505152047-老张的卡片盒子.md",
-    "posts/202505290856-智能体、应用和智能体应用.md",
     "template"
   ]
 }
