@@ -11,13 +11,14 @@
             "id": "d804d276bababb73",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "posts目录.base",
-                "viewName": "表格"
+                "file": "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "posts目录"
+              "icon": "lucide-file",
+              "title": "201308281332-没有测试人员的产品项目如何保证产品质量？"
             }
           }
         ]
@@ -181,8 +182,21 @@
   },
   "active": "d804d276bababb73",
   "lastOpenFiles": [
-    "posts/202504271945-大语言模型（Large Language Model，LLM）.md",
+    "posts/202305221626-一个反骨读《世界上最幸运的人》后的三个感受.md",
     "posts目录.base",
+    "posts/202309260932-产品和项目的关系.md",
+    "posts/202309261449-需求及需求分析.md",
+    "posts/202308161604-gitlab代码治理.md",
+    "posts/202308181444-到底什么是软件配置管理？.md",
+    "posts/202008170930-产品要素.md",
+    "posts/202505261517-液相色谱图数据还原和峰值、面积计算方案.md",
+    "assets/202505261517-液相色谱图报告.png",
+    "assets/202505261517-识别出的数据散点图.png",
+    "posts/202303090800-我给出的中台的定义.md",
+    "assets/202303090800-为什么要建设中台.png",
+    "assets/202303090800-为什么要分三个中台.png",
+    "assets/20230309-中台架构.svg",
+    "posts/202504271945-大语言模型（Large Language Model，LLM）.md",
     "posts/202511151250-MetaContex海宁云枢项目初验风波.md",
     "assets/202511151250-MetaContex海宁云枢项目初验风波.png",
     "posts/202507141844-用AI弄弄.md",
@@ -204,19 +218,6 @@
     "posts/202505161051-新的笔记站点上线了.md",
     "posts/202505152047-老张的卡片盒子.md",
     "posts/202505290856-智能体、应用和智能体应用.md",
-    "posts/202505271307-智能体的能力.md",
-    "posts/about.md",
-    "public/logo.fw.png",
-    "public/profile.svg",
-    "public/logo_dark.png",
-    "public/logo.png",
-    "public/profile-1.svg",
-    "pages/index.md",
-    "index.md",
-    "pages/archives.md",
-    "projects/attention-deficiency-patient-work-guide/index.md",
-    "category.md",
-    "template/template.md",
     "template"
   ]
 }
