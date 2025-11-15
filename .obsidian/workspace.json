@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e39edfe047baa171",
+        "id": "fd8599a8d6801d95",
         "type": "tabs",
         "children": [
           {
-            "id": "0746fcd991fb8ef4",
+            "id": "46d8803e6b07787e",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "assets/Pasted image 20220606185939.png"
+                "file": "assets/logo.svg"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20220606185939"
+              "title": "logo"
             }
           }
         ]
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "20220515141807",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/Pasted image 20220606185939.png",
+                "file": "assets/logo.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Pasted image 20220606185939 的反向链接列表"
+              "title": "logo 的反向链接列表"
             }
           },
           {
@@ -178,44 +178,45 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "0746fcd991fb8ef4",
+  "active": "46d8803e6b07787e",
   "lastOpenFiles": [
-    "assets/Pasted image 20220617125400.png",
+    "assets/about-vchat-qr.jpg",
+    "assets/20220515141807-303的门口.png",
+    "assets/20220617125400-303的魅影.png",
+    "posts/201507131916-产品经理的能力素质模型.md",
+    "assets/202505152047-老张的卡片盒子.png",
+    "assets/201507131916-能力素质冰山模型.png",
+    "projects/my-product-view/201507131916-产品经理的能力素质模型.md",
+    "posts/202505152047-老张的卡片盒子.md",
+    "posts/202505161051-新的笔记站点上线了.md",
+    "assets/202505161051-新笔记上线了.png",
+    "assets/202505290856-智能体应用平台架构.svg",
+    "posts/202505290856-智能体、应用和智能体应用.md",
+    "posts/202303120248-对产品经理的边界和外延发点牢骚.md",
+    "assets/202303120248-对产品经理的边界和外延发点牢骚.jpg",
+    "posts/201304141821-about.md",
+    "posts/202504271945-大语言模型（Large Language Model，LLM）.md",
+    "assets/20250516152515-大语言模型.png",
+    "assets/201304141821-about-php-standard-tutorial.jpg",
+    "assets/201304141821-about-web-color-design.jpg",
+    "posts/202302232108-使用 ChatGPT 辅助编程的效用提升和风险.md",
+    "projects/my-product-view/201411030000-Evernote的变迁和坚持.md",
+    "posts/202206010000-红药丸？蓝药丸？.md",
+    "posts/202206052249-为输出而阅读还是为了阅读而输出？.md",
+    "posts/202304100813-当我们不再理解世界，反而说明我们接近了真相.md",
+    "projects/my-weltanschauung/201605150000-那啥，叫老人加快步伐吧.md",
+    "posts/202206061351-做对产品的观点画布.md",
     "posts/201605150000-那啥，叫老人加快步伐吧.md",
-    "assets/Pasted image 20220515141807.png",
-    "assets/2016-09-25_foreign-product-manager-website_productmanagerhq.jpg",
-    "assets/20220605-输出式阅读法.svg",
-    "assets/20220818-文档象限.svg",
-    "assets/20230309-中台架构.svg",
-    "assets/20230414-当我们不再理解世界.jpg",
-    "assets/20230625-核心技术和关键技术.svg",
-    "assets/202302241054-好的用户体验是用最佳实践先于自由选择-蘸料.png",
-    "assets/202303090800-为什么要分三个中台.png",
     "pages/index.md",
     "posts/201601060000-当个图书管理员可好？.md",
-    "posts/202206010000-红药丸？蓝药丸？.md",
-    "posts/202304100813-当我们不再理解世界，反而说明我们接近了真相.md",
-    "posts/202206061351-做对产品的观点画布.md",
-    "posts/202206052249-为输出而阅读还是为了阅读而输出？.md",
-    "projects/my-weltanschauung/201605150000-那啥，叫老人加快步伐吧.md",
-    "posts/202303120248-对产品经理的边界和外延发点牢骚.md",
     "posts目录.base",
     "posts/201411030000-Evernote的变迁和坚持.md",
-    "posts/202505161051-新的笔记站点上线了.md",
-    "posts/202302232108-使用 ChatGPT 辅助编程的效用提升和风险.md",
-    "posts/202505290856-智能体、应用和智能体应用.md",
-    "projects/my-product-view/201411030000-Evernote的变迁和坚持.md",
-    "posts/201304141821-about.md",
     "posts/201508310000-用Workflowy高效记笔记.md",
-    "posts/201507131916-产品经理的能力素质模型.md",
-    "posts/202505152047-老张的卡片盒子.md",
     "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
     "pages/page-4.md",
     "posts/202305221626-一个反骨读《世界上最幸运的人》后的三个感受.md",
     "posts/202309260932-产品和项目的关系.md",
     "posts/202309261449-需求及需求分析.md",
-    "posts/202308161604-gitlab代码治理.md",
-    "posts/202308181444-到底什么是软件配置管理？.md",
     "template"
   ]
 }
