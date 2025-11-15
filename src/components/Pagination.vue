@@ -7,7 +7,7 @@
       class="pagination__link"
       v-for="page in pages"
       :key="page"
-      :href="withBase(page === 1 && homepage ? '${outDir}/index.html' : `${outDir}/page-${page}.html`)"
+      :href="withBase(page === 1 && homepage ? 'index.html' : `${outDir}/page-${page}.html`)"
       :class="{ 'pagination__link--active': pagination === page }"
     >
       {{ page }}
