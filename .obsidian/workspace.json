@@ -11,12 +11,14 @@
             "id": "46d8803e6b07787e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/logo.svg"
+                "file": "posts/201411030000-Evernote的变迁和坚持.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "logo"
+              "icon": "lucide-file",
+              "title": "201411030000-Evernote的变迁和坚持"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20220515141807",
+                "query": "[\"datetime\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/logo.svg",
+                "file": "posts/201411030000-Evernote的变迁和坚持.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "logo 的反向链接列表"
+              "title": "201411030000-Evernote的变迁和坚持 的反向链接列表"
             }
           },
           {
@@ -153,15 +156,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "posts/201411030000-Evernote的变迁和坚持.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "201411030000-Evernote的变迁和坚持 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,8 +183,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "46d8803e6b07787e",
+  "active": "fd6fabc1c1a36747",
   "lastOpenFiles": [
+    "posts/201605150000-那啥，叫老人加快步伐吧.md",
+    "assets/logo.svg",
+    "pages/page-4.md",
     "assets/about-vchat-qr.jpg",
     "assets/20220515141807-303的门口.png",
     "assets/20220617125400-303的魅影.png",
@@ -197,8 +205,6 @@
     "posts/201304141821-about.md",
     "posts/202504271945-大语言模型（Large Language Model，LLM）.md",
     "assets/20250516152515-大语言模型.png",
-    "assets/201304141821-about-php-standard-tutorial.jpg",
-    "assets/201304141821-about-web-color-design.jpg",
     "posts/202302232108-使用 ChatGPT 辅助编程的效用提升和风险.md",
     "projects/my-product-view/201411030000-Evernote的变迁和坚持.md",
     "posts/202206010000-红药丸？蓝药丸？.md",
@@ -206,14 +212,12 @@
     "posts/202304100813-当我们不再理解世界，反而说明我们接近了真相.md",
     "projects/my-weltanschauung/201605150000-那啥，叫老人加快步伐吧.md",
     "posts/202206061351-做对产品的观点画布.md",
-    "posts/201605150000-那啥，叫老人加快步伐吧.md",
     "pages/index.md",
     "posts/201601060000-当个图书管理员可好？.md",
     "posts目录.base",
     "posts/201411030000-Evernote的变迁和坚持.md",
     "posts/201508310000-用Workflowy高效记笔记.md",
     "posts/201308281332-没有测试人员的产品项目如何保证产品质量？.md",
-    "pages/page-4.md",
     "posts/202305221626-一个反骨读《世界上最幸运的人》后的三个感受.md",
     "posts/202309260932-产品和项目的关系.md",
     "posts/202309261449-需求及需求分析.md",
