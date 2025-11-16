@@ -9,8 +9,8 @@ prev:
   text: 老张的卡片盒子
   link: /posts/202505152047
 next:
-  text: 低代码和代码生成等传统快速开发方式的差别
-  link: /posts/202401190838
+  text: 基于大模型的知识库问答系统建设方案
+  link: /posts/202504180933
 ---
 
 # 大语言模型（Large Language Model，LLM）
