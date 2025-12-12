@@ -14,15 +14,6 @@ const { posts, rewrites } = await usePosts({
 
 export default defineConfig<ThemeConfig>({
   base: '/',
-  vite: {
-    build: {
-      assetFileNames: {
-        // 图片文件：保留原始名称，不添加哈希
-        // 格式：[extname] 表示后缀，[name] 表示原始文件名
-        image: 'assets/[name][extname]',
-      }
-    }
-  },
   title: 'CityWill',
   titleTemplate: '碎片化知识拼图',
   description: '认知和专注领域终身学习者、产品经理、AI替身、存在主义者',

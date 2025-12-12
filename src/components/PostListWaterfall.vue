@@ -14,7 +14,7 @@
             <a :href="withBase(post.permalink)">
               <img 
                 v-if="post.image" 
-                :src="post.image" 
+                :src="resolveImage(post.image)" 
                 alt="博客插图" 
                 @load="onImageLoad"
               />
@@ -76,6 +76,26 @@ const props = defineProps({
 
 const { theme } = useData();
 const page = theme.value.page;
+
+// Import assets to get hashed URLs
+const assets = import.meta.glob('../../assets/**/*.{png,jpg,jpeg,gif,svg,webp,ico}', { eager: true, import: 'default' });
+
+const resolveImage = (path: string) => {
+  if (!path) return '';
+  if (path.startsWith('http') || path.startsWith('//')) return path;
+
+  const filename = path.split('/').pop();
+  if (!filename) return path;
+
+  // Find matching asset in glob results
+  for (const key in assets) {
+    if (key.endsWith('/' + filename)) {
+      return assets[key] as string;
+    }
+  }
+  
+  return withBase(path);
+};
 
 // 瀑布流布局相关逻辑
 const columnCount = ref(getInitialColumnCount());
