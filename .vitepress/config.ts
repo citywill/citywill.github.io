@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
-import sidebarMyProductView from "../projects/my-product-view/sidebar.json";
-import sidebarMyWeltanschauung from "../projects/my-weltanschauung/sidebar.json";
+// import sidebarSmartNote from "../projects/smart-note/sidebar.json";
+import sidebarMetaContex from "../projects/meta-contex/sidebar.json";
+// import sidebarTheArtOfWorkingWithLlm from "../projects/the-art-of-working-with-llm/sidebar.json";
 const { posts, rewrites } = await usePosts({
   pageSize: 20,
   homepage: true,
@@ -37,19 +38,19 @@ export default defineConfig<ThemeConfig>({
       },
     ],
     sidebar: {
-      "/projects/my-product-view": [
+      // "/projects/my-product-view": [
+      //   {
+      //     "text": "🎯我的产品观",
+      //     "link": "/",
+      //     "base": "/projects/my-product-view/",
+      //     "items": sidebarMyProductView
+      //   }
+      // ],
+      "/projects/meta-contex": [
         {
-          "text": "🎯我的产品观",
-          "link": "/",
-          "base": "/projects/my-product-view/",
-          "items": sidebarMyProductView
-        }
-      ],
-      "/projects/my-weltanschauung": [
-        {
-          "text": "🌍我的世界观",
-          "base": "/projects/my-weltanschauung/",
-          "items": sidebarMyWeltanschauung
+          "text": "🌍软件公司的那些事儿",
+          "base": "/projects/meta-contex/",
+          "items": sidebarMetaContex
         }
       ]
     },

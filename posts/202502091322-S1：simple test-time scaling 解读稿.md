@@ -10,11 +10,11 @@ tags:
   - 大模型
   - 论文解读
 prev:
-  text: AI辅助提升专业开发效率的8个核心技巧
-  link: /posts/202503171047
+  text: DeepTopic-深度主题生成器
+  link: /posts/202502111126
 next:
-  text: Prompt：使用Mermaid语法绘制历史图谱
-  link: /posts/202412311700
+  text: GraphRAG智能问答系统（法律文书场景）
+  link: /posts/202501201544
 ---
 # 50美元超越O1？李飞飞团队S1模型的真相与启示
 

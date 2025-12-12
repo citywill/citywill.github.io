@@ -61,7 +61,6 @@ IDE采用windsurf，大模型是Claude 3.5 Sonnet。
 仪表板
 ![](../assets/202506251351-多源数据采集2.png)
 
-
 卡片列表
 ![](../assets/202506251351-多源数据采集3.png)
 

@@ -9,11 +9,11 @@ tags:
   - AI
   - 提示词
 prev:
-  text: 50美元超越O1？李飞飞团队S1模型的真相与启示
-  link: /posts/202502091322
+  text: ObsiGen：Obsidian历史笔记自动生成Agent
+  link: /posts/202501121829
 next:
-  text: 低代码和代码生成等传统快速开发方式的差别
-  link: /posts/202401190838
+  text: 数据资产、数据要素和数据资源
+  link: /posts/202410081606
 ---
 # Prompt：使用Mermaid语法绘制历史图谱
 
