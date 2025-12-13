@@ -1,8 +1,8 @@
 ---
-excerpt: null
-image: ../assets/202502091322-Simple%20test-time%20scaling.png
+excerpt:
+image: ../assets/202502091322-Simple-test-time-scaling.png
 title: 50美元超越O1？李飞飞团队S1模型的真相与启示
-datetime: '2025-02-09 15:06'
+datetime: 2025-02-09 15:06
 permalink: /posts/202502091322
 category: 永久笔记
 tags:
@@ -15,6 +15,8 @@ prev:
 next:
   text: GraphRAG智能问答系统（法律文书场景）
   link: /posts/202501201544
+aliases:
+  - 50美元超越O1？李飞飞团队S1模型的真相与启示
 ---
 # 50美元超越O1？李飞飞团队S1模型的真相与启示
 
@@ -26,7 +28,7 @@ next:
 
 这套方案的精妙之处在于，它跳出了“大模型必须靠海量数据训练”的固有思维，转而在“数据质量”和“推理过程优化”上做文章。无论是1000条精选数据的制备，还是测试时的动态追问机制，都体现了“以巧取胜”的研究思路，这也是该论文能引发关注的关键原因。
 
-![](../assets/202502091322-Simple%20test-time%20scaling.png)
+![](../assets/202502091322-Simple-test-time-scaling.png)
 ## 三大核心环节：数据、技术与结果的深度解析
 
 ### 1. 数据：从5.9万到1000条的“精挑细选”
