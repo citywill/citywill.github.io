@@ -1,8 +1,10 @@
 ---
-excerpt:
+excerpt: null
 image: ../assets/202502091322-Simple-test-time-scaling.png
+aliases:
+  - 50美元超越O1？李飞飞团队S1模型的真相与启示
 title: 50美元超越O1？李飞飞团队S1模型的真相与启示
-datetime: 2025-02-09 15:06
+datetime: '2025-02-09 15:06'
 permalink: /posts/202502091322
 category: 永久笔记
 tags:
@@ -15,8 +17,6 @@ prev:
 next:
   text: GraphRAG智能问答系统（法律文书场景）
   link: /posts/202501201544
-aliases:
-  - 50美元超越O1？李飞飞团队S1模型的真相与启示
 ---
 # 50美元超越O1？李飞飞团队S1模型的真相与启示
 

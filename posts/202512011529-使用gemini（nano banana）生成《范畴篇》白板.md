@@ -3,7 +3,7 @@ image: ../assets/202512011529-使用gemininano-banana生成范畴篇白板.png
 created: 2025-12-01T00:00:00.000Z
 updated: 2025-12-01T00:00:00.000Z
 title: 使用gemini（nano banana）生成《范畴篇》白板
-datetime: "2025-12-01 15:29"
+datetime: '2025-12-01 15:29'
 permalink: /posts/202512011529
 description: null
 category: 永久笔记
