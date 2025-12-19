@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress';
 import { usePosts } from '../src/composables/usePosts';
 import type { ThemeConfig } from '../src/types';
 // import sidebarSmartNote from "../projects/smart-note/sidebar.json";
-import sidebarMetaContex from "../projects/meta-contex/sidebar.json";
+// import sidebarMetaContex from "../projects/meta-contex/sidebar.json";
+import sidebarPMGuide from "../projects/pm-guide/sidebar.json";
 // import sidebarTheArtOfWorkingWithLlm from "../projects/the-art-of-working-with-llm/sidebar.json";
 const { posts, rewrites } = await usePosts({
   pageSize: 20,
@@ -47,13 +48,7 @@ export default defineConfig<ThemeConfig>({
       //     "items": sidebarMyProductView
       //   }
       // ],
-      "/projects/meta-contex": [
-        {
-          "text": "🌍软件公司的那些事儿",
-          "base": "/projects/meta-contex/",
-          "items": sidebarMetaContex
-        }
-      ]
+      "/projects/pm-guide": sidebarPMGuide
     },
     // socialLinks: [{ icon: 'github', link: 'https://github.com/izhichao/vitepress-theme-minimalism' }],
     footer: {
