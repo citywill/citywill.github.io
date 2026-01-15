@@ -2,3 +2,4 @@ node_modules
 .vitepress/dist
 .vitepress/cache
 .obsidian/workspace.json
+.obsidian/app.json
