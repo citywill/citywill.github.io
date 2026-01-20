@@ -29,16 +29,17 @@ export default defineConfig<ThemeConfig>({
     },
     logo: '/profile.svg',
     outline: { level: [2, 4] },
-    // nav: [
-    //   { text: '首页', link: '/' },
-    //   { text: '笔记盒', items: [
-    //       { text: '笔记', link: '/pages' },
-    //       { text: '分类', link: '/pages/category' },
-    //       { text: '标签', link: '/pages/tags' },
-    //       { text: '归档', link: '/pages/archives' },
-    //     ]
-    //   },
-    // ],
+    nav: [
+      { text: '首页', link: '/' },
+      {
+        text: '笔记盒', items: [
+          { text: '笔记', link: '/pages' },
+          { text: '分类', link: '/pages/category' },
+          { text: '标签', link: '/pages/tags' },
+          { text: '归档', link: '/pages/archives' },
+        ]
+      },
+    ],
     sidebar: {
       // "/projects/my-product-view": [
       //   {

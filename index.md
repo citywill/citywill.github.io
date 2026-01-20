@@ -16,7 +16,7 @@ features:
   - title: Pocket Stack：AI友好的全栈开发实践
     icon: 💎
     details: 基于 Shadcn/ui 和 PocketBase 的98分 Vide Coding 全栈开发实践。
-    link: /pocket-stack/
+    link: //citywill.github.io/pocket-stack/
     target: _blank
 #   - title: 应用软件产品管理指南
 #     icon: 🗺️
