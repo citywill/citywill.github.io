@@ -1,4 +1,6 @@
 {
   "newLinkFormat": "relative",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true
 }
