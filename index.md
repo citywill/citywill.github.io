@@ -3,7 +3,7 @@ layout: home
 hero:
   name: <small>CityWill</small>
   text: 在<span style="color:#ff007b;">碎片化知识</span>的随机拼图中寻找规律
-  tagline: <small>认知和专注领域终身学习者、产品经理、Vibe Coder、存在主义者</small>
+  tagline: <small>产品经理、Vibe Coder、认知和专注领域终身受害者</small>
   image:
     light: /logo.png
     dark: /logo_dark.png
