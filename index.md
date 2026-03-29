@@ -18,6 +18,11 @@ features:
     details: 基于 Shadcn/ui 和 PocketBase 的98分 Vide Coding 全栈开发实践。
     link: //citywill.github.io/pocket-stack/
     target: _blank
+  - title: Pocket Slide：AI友好的演示文稿生成工具
+    icon: 📚
+    details: 基于 PocketStack 的幻灯片/演示文稿开发模块。
+    link: //citywill.github.io/pocket-slide/
+    target: _blank
 #   - title: 应用软件产品管理指南
 #     icon: 🗺️
 #     details: 这个项目收录了我对产品的理解和思考，包括产品的功能、用户需求、产品设计等。
