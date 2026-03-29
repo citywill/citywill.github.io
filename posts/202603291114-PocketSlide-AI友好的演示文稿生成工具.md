@@ -61,17 +61,17 @@ http://localhost:5173
 
 ## Demo 截图
 
-![截图](https://github.com/citywill/pocket-slide/blob/main/docs/assets/screenshot.png)
+![截图](https://citywill.github.io/pocket-slide/assets/screenshot.png)
 
-![功能概览](https://github.com/citywill/pocket-slide/blob/main/docs/assets/features.png)
+![功能概览](https://citywill.github.io/pocket-slide/assets/features.png)
 
-![背景图片](https://github.com/citywill/pocket-slide/blob/main/docs/assets/bg-image.png)
+![背景图片](https://citywill.github.io/pocket-slide/assets/bg-image.png)
 
-![主题](https://github.com/citywill/pocket-slide/blob/main/docs/assets/themes.png)
+![主题](https://citywill.github.io/pocket-slide/assets/themes.png)
 
-![图标](https://github.com/citywill/pocket-slide/blob/main/docs/assets/icons.png)
+![图标](https://citywill.github.io/pocket-slide/assets/icons.png)
 
-![Vibe Coding 开发](https://github.com/citywill/pocket-slide/blob/main/docs/assets/vibe-presentation.png)
+![Vibe Coding 开发](https://citywill.github.io/pocket-slide/assets/vibe-presentation.png)
 
 ## AI IDE 开发
 
@@ -187,4 +187,4 @@ http://github.com/citywill/pocket-stack
 
 ## 微信交流
 
-![微信](https://github.com/citywill/pocket-slide/blob/main/docs/assets/weixin.png)
+![微信](https://citywill.github.io/pocket-slide/assets/weixin.png)
