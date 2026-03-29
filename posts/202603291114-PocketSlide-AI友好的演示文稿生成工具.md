@@ -1,7 +1,7 @@
 ---
 title: Pocket Slide：AI友好的演示文稿生成工具
 excerpt: 
-image: https://github.com/citywill/pocket-slide/blob/main/docs/assets/screenshot.png
+image: https://citywill.github.io/pocket-slide/assets/screenshot.png
 datetime: '2026-03-29 11:14'
 permalink: /posts/202603291114
 category: 闪念笔记
