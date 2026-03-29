@@ -1,7 +1,7 @@
 ---
 title: Pocket Slide：AI友好的演示文稿生成工具
 excerpt: 
-image: https://citywill.github.io/pocket-slide/assets/screenshot.png
+image: ../assets/pocket-slide/screenshot.png
 datetime: '2026-03-29 11:14'
 permalink: /posts/202603291114
 category: 闪念笔记
@@ -61,17 +61,17 @@ http://localhost:5173
 
 ## Demo 截图
 
-![截图](https://citywill.github.io/pocket-slide/assets/screenshot.png)
+![截图](../assets/pocket-slide/screenshot.png)
 
-![功能概览](https://citywill.github.io/pocket-slide/assets/features.png)
+![功能概览](../assets/pocket-slide/features.png)
 
-![背景图片](https://citywill.github.io/pocket-slide/assets/bg-image.png)
+![背景图片](../assets/pocket-slide/bg-image.png)
 
-![主题](https://citywill.github.io/pocket-slide/assets/themes.png)
+![主题](../assets/pocket-slide/themes.png)
 
-![图标](https://citywill.github.io/pocket-slide/assets/icons.png)
+![图标](../assets/pocket-slide/icons.png)
 
-![Vibe Coding 开发](https://citywill.github.io/pocket-slide/assets/vibe-presentation.png)
+![Vibe Coding 开发](../assets/pocket-slide/vibe-presentation.png)
 
 ## AI IDE 开发
 
@@ -187,4 +187,4 @@ http://github.com/citywill/pocket-stack
 
 ## 微信交流
 
-![微信](https://citywill.github.io/pocket-slide/assets/weixin.png)
+![微信](../assets/pocket-slide/weixin.png)
