@@ -1,11 +1,17 @@
 ---
-title: Pocket Slide：AI友好的演示文稿生成工具
-excerpt: 
+excerpt: null
 image: ../assets/pocket-slide/screenshot.png
+title: Pocket Slide：AI友好的演示文稿生成工具
 datetime: '2026-03-29 11:14'
 permalink: /posts/202603291114
 category: 闪念笔记
-tags: 
+tags: null
+prev:
+  text: 202604180833-PocketStack的模块化设计2.0
+  link: /posts/202604180833
+next:
+  text: Vibe Coding让程序员越来越浮躁了么？
+  link: /posts/202603171433
 ---
 # Pocket Slide：AI友好的演示文稿生成工具
 
