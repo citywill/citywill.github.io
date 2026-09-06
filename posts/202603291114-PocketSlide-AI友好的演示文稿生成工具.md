@@ -7,11 +7,11 @@ permalink: /posts/202603291114
 category: 闪念笔记
 tags: null
 prev:
-  text: 202604180833-PocketStack的模块化设计2.0
+  text: PocketStack的模块化设计2.0
   link: /posts/202604180833
 next:
-  text: Vibe Coding让程序员越来越浮躁了么？
-  link: /posts/202603171433
+  text: PocketStack V0.4.0 发布说明
+  link: /posts/202603251200
 ---
 # Pocket Slide：AI友好的演示文稿生成工具
 
