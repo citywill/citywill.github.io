@@ -4,23 +4,25 @@ filters:
 formulas:
   年月: datetime.format("YYYY-MM")
 views:
-  - type: table
-    name: 表格
+  - type: cards
+    name: 卡片
+    filters:
+      and:
+        - file.inFolder("posts")
+    groupBy:
+      property: formula.年月
+      direction: DESC
     order:
-      - file.name
-      - datetime
       - title
-      - tags
+      - datetime
       - category
-      - formula.年月
+      - file.tags
     sort:
-      - property: formula.年月
-        direction: DESC
-      - property: file.name
-        direction: DESC
       - property: datetime
         direction: DESC
     columnSize:
       file.name: 285
       note.datetime: 168
       note.title: 306
+    image: note.image
+    imageAspectRatio: 0.6
